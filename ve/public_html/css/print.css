@@ -1,0 +1,55 @@
+@page  
+{ 
+    size: auto;   /* auto is the initial value */ 
+
+    /* this affects the margin in the printer settings */ 
+    margin: 2mm 2mm 2mm 2mm;  
+} 
+
+body  
+{ 
+    /* this affects the margin on the content before sending to printer */ 
+    margin: 0px;  
+} 
+body.canvas-menu .navbar-static-side,
+body.fixed-sidebar .navbar-static-side
+{
+    width: 0px;
+    display: none;
+}
+#page-wrapper
+{
+    margin: 0px auto !important;
+    width: 95%;
+    left: 0px;
+    
+}
+.chrome #page-wrapper {
+  left: -220px;
+}
+a,
+a:after
+{
+    content: normal !important;
+}
+.tabs-container #claimant,
+.tabs-container #details
+{
+    display: block !important;
+}
+.nav-tabs,
+.headerClaimActionBtns
+{
+    display: none;
+}
+.col-lg-8
+{
+    width: 750px;
+    text-overflow: ellipsis;
+    padding: 0px;
+}
+#claimant .col-lg-6
+{
+    width: 350px;
+    float: left;
+}
